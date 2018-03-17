@@ -21,4 +21,6 @@
             {!!Form::close()!!}
         @endif    
     @endif
+    <br><br>
 @endsection
+<br><br>
