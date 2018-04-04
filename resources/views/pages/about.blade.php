@@ -10,7 +10,7 @@
     <h2 class="h1 text-center py-5">Our amazing team</h2>
     <!--Section description-->
     <p class="grey-text pb-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi,
-        veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+        veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum massa neque, blandit ut neque eu, varius maximus tellus. Nam odio felis, sollicitudin venenatis augue ac, feugiat iaculis enim. Nam nec turpis id mi feugiat consectetur. In convallis sapien a mi viverra elementum. Phasellus euismod, mi vitae blandit posuere, erat nisi fringilla velit, quis ullamcorper tortor neque eu arcu. Integer a euismod turpis. Integer sit amet dapibus dui. Mauris consequat in diam vitae ornare. Aliquam vulputate turpis a risus mattis, ut eleifend risus pharetra. Ut eleifend scelerisque bibendum. Vivamus tortor nisl, tincidunt eu cursus eget, ultrices non velit. Fusce sodales dolor ut ipsum faucibus, nec rutrum enim laoreet. Proin tincidunt, urna nec pulvinar viverra, nulla turpis blandit mauris, sit amet tristique mi ligula ac diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas tempor diam sed risus consectetur porta.</p>
 
     <!-- Grid row -->
     <div class="row text-center">

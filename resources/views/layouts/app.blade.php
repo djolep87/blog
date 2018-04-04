@@ -14,11 +14,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mdb.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet">
-
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
