@@ -25,6 +25,8 @@ Route::get('/services', 'PagesController@services');
 
 Route::resource('posts', 'PostController');
 
+Route::post('/posts/{post}/comments', 'CommentsController@store');
+
 
 
 
