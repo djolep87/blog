@@ -24,6 +24,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
 Route::resource('posts', 'PostController');
+Route::resource('questions', 'QuestionsController');
 
 Route::post('/posts/{post}/comments', 'CommentsController@store');
 
@@ -38,3 +39,4 @@ Route::post('/posts/{post}/comments', 'CommentsController@store');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+Route::get('/questionboard', 'QuestionboardController@index');

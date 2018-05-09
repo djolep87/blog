@@ -9,7 +9,7 @@
         {!!$post->body!!}
     </div>
     <hr>
-<small>Writen on {{$post->created_at}} by {{$post->user->name}}</small>
+<small>Writen on {{$post->created_at->toFormattedDateString()}} by {{$post->user->name}}</small>
 <br>
     
     @if(!Auth::guest())
