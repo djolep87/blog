@@ -2,6 +2,8 @@
 
 @section('content')
     <a href="/posts" class="btn btn-default">Go Back</a>
+    <br>
+    <br>
     <h1>{{$post->title}}</h1>
     <img style = "" src="/storage/cover_images/{{$post->cover_image}}">
     <br><br>
@@ -70,4 +72,3 @@
 
     </form>
 @endsection
-<br><br>

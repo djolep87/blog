@@ -24,7 +24,7 @@ class question extends Model
 
     public function comments()
     {
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(QuestionComment::class);
     }
 
     public function addComment($body)

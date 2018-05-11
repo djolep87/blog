@@ -27,7 +27,7 @@ Route::resource('posts', 'PostController');
 Route::resource('questions', 'QuestionsController');
 
 Route::post('/posts/{post}/comments', 'CommentsController@store');
-
+Route::post('/questions/{post}/comments', 'QuestionCommentController@store');
 
 
 
