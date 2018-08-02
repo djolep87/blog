@@ -9,6 +9,7 @@
 
                 <div class="card-body">
                     <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                    
                     <h3>Your Blog Posts</h3>
                     @if(count($posts) > 0)
                     <table class="table table-striped">
@@ -20,6 +21,7 @@
                         @foreach($posts as $post)
                             <tr>
                                 <td>{{$post->title}}</td>
+                        
                                 <td><a href="/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a></td>
                                 <td>
                                         {!!Form::open(['action' => ['PostController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right'])!!}

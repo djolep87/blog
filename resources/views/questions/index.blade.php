@@ -10,6 +10,7 @@
             <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
             </div>
         @endforeach
+        <hr>
         {{$posts->links()}}
     @else
         <p>No questions found</p>

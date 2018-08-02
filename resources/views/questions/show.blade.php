@@ -6,6 +6,7 @@
 <br>
     <h1>{{$post->title}}</h1>
 <small>Writen on {{$post->created_at}}</small>
+<hr>
 
 
 @if(!Auth::guest())

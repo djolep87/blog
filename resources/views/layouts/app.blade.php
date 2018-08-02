@@ -20,6 +20,8 @@
     <link href="{{ asset('css/mdb.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+    @yield('stylesheet')
 </head>
 <body>
     <div id="app">
@@ -29,6 +31,8 @@
                 @include('inc.messages')
                 @yield('content')
             </div>
+
+            @yield('scrypts')
            
     </div>
 
